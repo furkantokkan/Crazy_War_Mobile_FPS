@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033c7197881a21241a79f20ade0e958b, type: 3}
+  m_Name: Sci-fi Shotgun 1
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 5783954524288184859, guid: 06c813cf854462d4c86a7cd38f98536b, type: 3}
+  canAim: 0
+  animatorOverride: {fileID: 22100000, guid: 171c832739428bd46a8e6e27b4c792d7, type: 2}
+  weaponOffset: {x: 0, y: 0, z: 0}
+  bullet: {fileID: 5154503352336365706, guid: 97eaf80d399abb84e96ac11bb7cbd9b5, type: 3}
+  zoomedInFOV: 35
+  zoomedOutFOV: 60
+  fireRate: 0.7
+  bulletSpeed: 13
+  reloadTime: 2
+  weaponRange: 15
+  weaponDamage: 5
+  magAmount: 5
+  maxAmmo: 30
+  muzzlePrefab: {fileID: 100004, guid: b7d03fb0762c75449af69d624547e358, type: 3}
+  lightDuration: 0.02

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033c7197881a21241a79f20ade0e958b, type: 3}
+  m_Name: WEABEN 10
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 5010645991592904564, guid: 983d3c32751ffbf40b05493c52f50da9, type: 3}
+  canAim: 0
+  animatorOverride: {fileID: 22100000, guid: 171c832739428bd46a8e6e27b4c792d7, type: 2}
+  weaponOffset: {x: -0.08, y: 0.24, z: 0}
+  bullet: {fileID: 4731205757570007420, guid: a1cb992b69514d5459a44a00844b87de, type: 3}
+  zoomedInFOV: 35
+  zoomedOutFOV: 60
+  fireRate: 0.6
+  bulletSpeed: 13
+  reloadTime: 2
+  weaponRange: 10
+  weaponDamage: 5
+  magAmount: 15
+  maxAmmo: 30
+  muzzlePrefab: {fileID: 100004, guid: b7d03fb0762c75449af69d624547e358, type: 3}
+  lightDuration: 0.02
