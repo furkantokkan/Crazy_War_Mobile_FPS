@@ -25,11 +25,9 @@ public class FireController : MonoBehaviour
     void Start()
     {
         SpawnWeapon();
-    }
-    private void OnEnable()
-    {
         InputManager.Instance.onTouchStart += FireInput;
     }
+  
     private void OnDisable()
     {
         InputManager.Instance.onTouchStart -= FireInput;

@@ -7,7 +7,6 @@ public class WaveManager : MonoBehaviour
     [System.Serializable]
     public struct Wave
     {
-        public string name;
         public Transform[] enemys;
         public int count;
         public float rate;
