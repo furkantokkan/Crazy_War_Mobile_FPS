@@ -93,6 +93,7 @@ public class UIManager : MonoBehaviour
         }
 
         WaveManager.currentSpawnState = WaveManager.SpawnState.Counting;
+        GameManager.attackingCount = 0;
 
         foreach (var item in GameManager.instance.gameUI)
         {
