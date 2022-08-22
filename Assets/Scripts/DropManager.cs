@@ -23,13 +23,21 @@ public class DropManager : MonoBehaviour
     }
     void SpawnDrop(Transform Drop)
     {
-        Transform sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
-
-        if (sp.childCount > 0)
+        try
         {
-            Destroy(sp.GetComponentInChildren<GameObject>());
-        }
+            Transform sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
 
-        Instantiate(Drop, sp.position, sp.rotation, sp);
+            if (sp.childCount > 0)
+            {
+                Destroy(sp.GetComponentInChildren<GameObject>());
+            }
+
+            Instantiate(Drop, sp.position, sp.rotation, sp);
+        }
+        catch 
+        {
+
+        }
+        
     }
 }

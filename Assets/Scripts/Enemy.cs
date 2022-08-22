@@ -66,7 +66,7 @@ public class Enemy : MonoBehaviour
 
         StateCheck();
 
-        if (GameManager.attackingCount >= 5)
+        if (GameManager.attackingCount >= 10)
         {
             if (currentState == State.Chase || currentState == State.Search)
             {
